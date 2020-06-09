@@ -22,7 +22,7 @@ Introduce the `wpcom` dependency into your `package.json` ...
 npm install --save wpcom
 ```
 
-... and then initialize it with your API token ([grcOVLBEGC4678XdPJRiWidBjXIbFGwcjCVioXAnBDIcl0ZE8OPh4MpJAZaQ92Ke](#authentication)).
+... and then initialize it with your API token ([optional](#authentication)).
 
 
 ```js
@@ -99,7 +99,7 @@ blog.postsList( { number: 8 } )
 	.catch( error => { ... } );
 ```
 
-More pre-made examples are in the [`iqostw.net/`](./iqostw.net/) directory.
+More pre-made examples are in the [`examples/`](./examples/) directory.
 
 ## Test
 
